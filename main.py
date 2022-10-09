@@ -44,11 +44,13 @@ transformations_v1 = transforms.Compose([
 
 # Creating dataset classs
 dataset = torchvision.datasets.ImageFolder("C:\\Users\\jyoti\\Desktop\\Utkarshini\\classified_images\\", transform = transformations_v1)
+dataset_test = torchvision.datasets.ImageFolder("C:\\Users\\jyoti\\Desktop\\Utkarshini\\classified_images_test\\", transform = transformations_v1)
 
 
 
 # Data loader
 train_dataloader = DataLoader(dataset, batch_size=100, shuffle=True )
+test_dataloader = DataLoader(dataset_test, batch_size=100, shuffle=True )
 
 
 
@@ -115,7 +117,7 @@ for epoch in range(20):
 
 tl=0
 total_correct=0
-for batch in train_dataloader:
+for batch in test_dataloader:
     image, label = batch
     label = torch.unsqueeze(label,1).float()
     
