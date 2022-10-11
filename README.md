@@ -1,4 +1,4 @@
-# Flood-Detection-using-CNNs
+# Flood-Response-using-CNNs
 
 ### Here I have come up with a **flood relief** solution with the help of modern day technologies such as **artificial intelligence** and **deep learning**. Basically what we do is, we first accumulate flood images data from various sources and then train an image classifier on them to detect wether an image contains a human or not.This forms the first half of our solution. In the second half, we integrate Twitter APIs to fetch flood images and passs them through our classifier. Once we detect that an image contain humans, we store the images name and its metadata in a csv file. This whole process enables us to automate detection of people stuck in floods through the use of Artificial Intelligence.
 
