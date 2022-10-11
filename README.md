@@ -1,6 +1,6 @@
 # Flood-Detection-using-CNNs
 
-### Here I have come up with a **flood relief** solution with the help of modern day technologies such as **artificial intelligence** and **deep learning**.
+### Here I have come up with a **flood relief** solution with the help of modern day technologies such as **artificial intelligence** and **deep learning**. Basically what we do is, we first accumulate flood images data from various sources and then train an image classifier on them to detect wether an image contains a human or not.This forms the first half of our solution. In the second half, we integrate Twitter APIs to fetch flood images and passs them through our classifier. Once we detect that an image contain humans, we store the images name and its metadata in a csv file. This whole process enables us to automate detection of people stuck in floods through the use of Artificial Intelligence.
 
 ## Architecture
 
@@ -38,4 +38,9 @@ Inception-v3 - https://paperswithcode.com/method/inception-v3
 2. Integrating it with the Twitter API to create an whole flood relief system.
 
 
-![Twitter](https://user-images.githubusercontent.com/27720480/136644979-7acad130-2bd9-4a28-a5bd-94026f4fd4e2.jpg](https://github.com/jyotirmaypaliwal/Flood-Detection-using-CNNs/blob/main/Blank%20diagram.png)
+![twitter](https://github.com/jyotirmaypaliwal/Flood-Detection-using-CNNs/blob/main/Blank%20diagram.png)
+
+Images are accumulated through the Twitter APIs and are passed through our classifier. The classifier classifies them and stores their metadata inside of a csv file. 
+
+## Conclusion
+Deep Learning techniques are now in a comfortable and safe position to be leveraged by various governments in disaster relief response and their ability to learn new things has immense potential. AI techniques should be incorporated into disaster relief and response as they are reliable and fast along with taking some load off disaster relief personnels.
