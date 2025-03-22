@@ -2,7 +2,7 @@
 import numpy as np
 #import pandas as pd
 
-# For plotting data
+# For plotting dataset.
 # import matplotlib.pyplot as plt
 # import matplotlib.image as mpimg
 # import seaborn as sns

@@ -6,7 +6,7 @@ import pickle
 import pandas as pd
 
 
-
+#Invoking Twitter API
 api = twitter.Api(consumer_key = cf.credentials["consumer_key"],
                   consumer_secret = cf.credentials["consumer_secret"],
                   access_token_key = cf.credentials["access_token"],

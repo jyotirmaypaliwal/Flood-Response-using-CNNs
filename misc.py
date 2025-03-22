@@ -1,3 +1,4 @@
+#Function to show transformed images
 def show_transformed_images(dataset):
     loader = train_dataloader = DataLoader(dataset, batch_size=10, shuffle=True )
     batch = next(iter(loader))
